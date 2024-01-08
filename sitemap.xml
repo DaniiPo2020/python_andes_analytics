@@ -2,22 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://hizocar.github.io/python_andes_analytics/</loc>
-         <lastmod>2024-01-04</lastmod>
+         <lastmod>2024-01-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hizocar.github.io/python_andes_analytics/__init__/</loc>
-         <lastmod>2024-01-04</lastmod>
+         <lastmod>2024-01-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hizocar.github.io/python_andes_analytics/programa/</loc>
-         <lastmod>2024-01-04</lastmod>
+         <lastmod>2024-01-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hizocar.github.io/python_andes_analytics/modulo_1/clase1/</loc>
-         <lastmod>2024-01-04</lastmod>
+         <lastmod>2024-01-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hizocar.github.io/python_andes_analytics/modulo_1/clase2/</loc>
+         <lastmod>2024-01-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
