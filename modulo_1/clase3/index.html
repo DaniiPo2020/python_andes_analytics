@@ -260,12 +260,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
       
       
       
@@ -305,6 +307,346 @@
       <a href="../clase2/" class="md-nav__link">
         Clase 2: Estructuras de Decisión y Bucles en Python
       </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Clase 3: Funciones y modulos en Python
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Clase 3: Funciones y modulos en Python
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#que-es-una-funcion" class="md-nav__link">
+    ¿Qué es una función?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#estructura-de-una-funcion-en-python" class="md-nav__link">
+    Estructura de una función en Python
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#definicion-de-funciones-def" class="md-nav__link">
+    Definición de funciones: def
+  </a>
+  
+    <nav class="md-nav" aria-label="Definición de funciones: def">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejemplos-de-funciones-simples" class="md-nav__link">
+    Ejemplos de funciones simples
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practica" class="md-nav__link">
+    Práctica
+  </a>
+  
+    <nav class="md-nav" aria-label="Práctica">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-1-creacion-de-una-funcion-basica" class="md-nav__link">
+    Ejercicio 1: Creación de una función básica
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2-uso-de-funciones-con-estructuras-de-control" class="md-nav__link">
+    Ejercicio 2: Uso de funciones con estructuras de control
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#principio-dry-dont-repeat-yourself" class="md-nav__link">
+    Principio DRY (don't repeat yourself)
+  </a>
+  
+    <nav class="md-nav" aria-label="Principio DRY (don't repeat yourself)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo-que-no-aplica-dry" class="md-nav__link">
+    Ejemplo que no Aplica DRY
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aplicando-dry-con-funciones" class="md-nav__link">
+    Aplicando DRY con Funciones
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#optimizando-codigo" class="md-nav__link">
+    Optimizando código
+  </a>
+  
+    <nav class="md-nav" aria-label="Optimizando código">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creacion-de-un-modulo-con-funciones" class="md-nav__link">
+    Creación de un Módulo con Funciones:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#importacion-de-funciones-del-modulo" class="md-nav__link">
+    Importación de Funciones del Módulo:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo-practico" class="md-nav__link">
+    Ejemplo Práctico
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#consideraciones-importantes" class="md-nav__link">
+    Consideraciones Importantes:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#escenario-calculo-de-primas-de-seguros" class="md-nav__link">
+    Escenario: Cálculo de Primas de Seguros
+  </a>
+  
+    <nav class="md-nav" aria-label="Escenario: Cálculo de Primas de Seguros">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criterios" class="md-nav__link">
+    Criterios:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paso-1-creacion-del-modulo-con-funciones" class="md-nav__link">
+    Paso 1: Creación del Módulo con Funciones
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paso-2-uso-de-las-funciones-en-el-programa-principal" class="md-nav__link">
+    Paso 2: Uso de las Funciones en el Programa Principal
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#escenario-evaluacion-de-riesgo-para-seguros-de-automovil" class="md-nav__link">
+    Escenario: Evaluación de Riesgo para Seguros de Automóvil
+  </a>
+  
+    <nav class="md-nav" aria-label="Escenario: Evaluación de Riesgo para Seguros de Automóvil">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problema-desarrollar-un-sistema-para-evaluar-el-riesgo-de-clientes-potenciales-y-calcular-las-primas-de-seguros-de-automovil-las-primas-se-basaran-en-la-edad-del-conductor-el-historial-de-manejo-el-tipo-de-vehiculo-y-la-zona-de-residencia" class="md-nav__link">
+    Problema: Desarrollar un sistema para evaluar el riesgo de clientes potenciales y calcular las primas de seguros de automóvil. Las primas se basarán en la edad del conductor, el historial de manejo, el tipo de vehículo y la zona de residencia.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#criterios_1" class="md-nav__link">
+    Criterios:
+  </a>
+  
+    <nav class="md-nav" aria-label="Criterios:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#edad-del-conductor" class="md-nav__link">
+    Edad del Conductor:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tipo-de-vehiculo" class="md-nav__link">
+    Tipo de Vehículo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paso-1-creacion-del-modulo-con-funciones_1" class="md-nav__link">
+    Paso 1: Creación del Módulo con Funciones
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paso-2-uso-de-las-funciones-en-el-programa-principal_1" class="md-nav__link">
+    Paso 2: Uso de las Funciones en el Programa Principal
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#escenario-calculo-de-reservas-y-evaluacion-de-riesgos-en-seguros-de-salud" class="md-nav__link">
+    Escenario: Cálculo de Reservas y Evaluación de Riesgos en Seguros de Salud
+  </a>
+  
+    <nav class="md-nav" aria-label="Escenario: Cálculo de Reservas y Evaluación de Riesgos en Seguros de Salud">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problema-desarrollar-un-sistema-para-calcular-las-reservas-necesarias-y-evaluar-los-riesgos-asociados-a-los-asegurados-de-una-compania-de-seguros-de-salud-se-deben-considerar-factores-como-la-edad-de-los-asegurados-sus-condiciones-de-salud-preexistentes-y-el-historial-de-reclamaciones" class="md-nav__link">
+    Problema: Desarrollar un sistema para calcular las reservas necesarias y evaluar los riesgos asociados a los asegurados de una compañía de seguros de salud. Se deben considerar factores como la edad de los asegurados, sus condiciones de salud preexistentes y el historial de reclamaciones.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#criterios_2" class="md-nav__link">
+    Criterios:
+  </a>
+  
+    <nav class="md-nav" aria-label="Criterios:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reservas-basadas-en-edad" class="md-nav__link">
+    Reservas Basadas en Edad:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ajuste-por-condiciones-de-salud-preexistentes" class="md-nav__link">
+    Ajuste por Condiciones de Salud Preexistentes:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ajuste-por-historial-de-reclamaciones" class="md-nav__link">
+    Ajuste por Historial de Reclamaciones:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paso-1-creacion-del-modulo-con-funciones_2" class="md-nav__link">
+    Paso 1: Creación del Módulo con Funciones
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paso-2-uso-de-las-funciones-en-el-programa-principal_2" class="md-nav__link">
+    Paso 2: Uso de las Funciones en el Programa Principal
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -2788,6 +3130,26 @@ for asegurado in asegurados:
       </main>
       
         <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Pie">
+      
+        
+        <a href="../clase2/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Clase 2: Estructuras de Decisión y Bucles en Python" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              Clase 2: Estructuras de Decisión y Bucles en Python
+            </div>
+          </div>
+        </a>
+      
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
